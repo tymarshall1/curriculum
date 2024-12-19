@@ -20,7 +20,7 @@ The release of Nexus was just the beginning though, as in the next decade people
 
 In 1995 the world got introduced to the first version of Internet Explorer, which became the dominant player in the market. At some point, Internet Explorer was used by more than 90% of all users. To counter this dominance, Netscape launched what would become Mozilla Foundation which develops and maintains Firefox. Soon after that, in 2003, Apple launched Safari, and in 2008, Google launched Chrome.
 
-You're most likely familiar with most, if not all these names.<span id="most-used-browser"> There is a lot of [competition among browsers](https://www.youtube.com/watch?v=W4wWdmfOibY) still to this day, even though Chrome (and [Chromium](https://en.wikipedia.org/wiki/Chromium_(web_browser))) is the dominant player in the market</span>.
+You're most likely familiar with most, if not all these names.<span id="most-used-browser"> There is a lot of [competition among browsers](https://www.youtube.com/watch?v=W4wWdmfOibY) still to this day, even though Chrome (and [Chromium](<https://en.wikipedia.org/wiki/Chromium_(web_browser)>)) is the dominant player in the market</span>.
 
 ### What is browser compatibility?
 
@@ -30,7 +30,7 @@ As companies compete for market share, different browsers are using different en
 
 Because of these differences, your applications may behave differently in the browser. Due to Chrome dominance, the vast majority of applications are designed to work smoothly with Chromium, and providing as good a level of performance in other browsers is secondary.
 
-For your web development projects to have a broader reach, you must make sure that you're testing your web applications against browsers which are most likely to be used by users. Chrome, Safari, Firefox, and other Chromium-based browsers (Microsoft Edge, Brave, etc.) are more common among regular users. But you may find you need to support less common ones (like Internet Explorer) as well depending on the user base or the company you work for. For Chromium browsers, if it works in Chrome, it should work in other related browsers as well.
+For your web development projects to have a broader reach, you must make sure that you're testing your web applications against browsers which are most likely to be used by users. Chrome, Safari, Firefox, and other Chromium-based browsers (Microsoft Edge, Brave, etc.) are more common among regular users. But you may find you need to support less common ones as well depending on the user base or the company you work for. For Chromium browsers, if it works in Chrome, it should work in other related browsers as well.
 
 ### Browser releases and new CSS features
 
@@ -57,7 +57,7 @@ Mobile devices mostly consist of smartphones and tablets. The most popular mobil
 As you're developing your applications, you must also consider whether your application should be fully mobile compatible. There are a couple of specifics about mobile browsers that you need to keep in mind.
 
 1. <span id="apple-browsers">On iOS and iPadOS, Safari is technically the only supported browser. Yes, you can install Chrome or Firefox, and you can even set them as a default, but they are not full browsers. They are still using the Safari rendering engine (WebKit). Therefore, for your web application to work for Apple users, you have to ensure support for WebKit and other technologies used in Safari.
-It's important to remember that mobile browsers are not one-to-one with their desktop counterparts. A project that works in the desktop version of Safari might still need adjustments to work properly on the mobile version of the same browser.</span>
+   It's important to remember that mobile browsers are not one-to-one with their desktop counterparts. A project that works in the desktop version of Safari might still need adjustments to work properly on the mobile version of the same browser.</span>
 1. Another consideration for mobile browsers is the magnitude of different screen sizes. It is virtually impossible to have every physical device available to test, and thankfully browsers provide a way to emulate other devices. The important piece to remember is that when, for example, you emulate an iPhone in Chrome, all that you're emulating is the screen size. Keep in mind that any specific considerations of the operating system will not be reproducible. Which means that even though everything functions well in Chrome when emulating a device, it could behave differently on the actual phone or tablet device.
 
 ### Assignment
